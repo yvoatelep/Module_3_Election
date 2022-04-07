@@ -1,0 +1,12 @@
+list ()
+counties = ["Arapahoe"'"Denver"'"Jefferson"]
+counties [0]
+print 
+type(3)
+
+
+
+
+
+
+
