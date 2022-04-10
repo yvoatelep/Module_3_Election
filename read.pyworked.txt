@@ -1,0 +1,51 @@
+read.py
+
+# from distutils import text_file
+# import os
+# import csv
+# csvpath = os.path.join('Resources','election_results.csv')
+# with open (csvpath) as election_data:
+#     csvreader = csv.reader(election_data, delimiter=',')
+#     print(csvreader)
+#     csv_header = next(csvreader)
+#     print(f"CSV Header: {csv_header}")
+#     for row in csvreader:
+#         #print(row)
+
+# #create a filename variable to a direct or indirect path to the file
+# file_to_save=os.path.join("analysis".,"election_analysis.txt")
+# #Use open()funtion with "W" mode to write data to the file
+# open(file_to_save, "w") as text_file:
+#     # Write some data to the file.
+#     txt_file.write("Hello World")
+
+import os
+import csv
+
+csvpath = os.path.join('Resources','election_results.csv')
+
+with open (csvpath) as election_data:
+    csvreader = csv.reader(election_data, delimiter=',')
+    print(csvreader)
+    csv_header = next(csvreader)
+    print(f"CSV Header: {csv_header}")
+    for row in csvreader:
+        pass
+        #print(row)
+
+#create a filename variable to a direct or indirect path to the file
+file_to_save=os.path.join("Analysis","election_analysis.txt")
+#Use open()funtion with "W" mode to write data to the file
+with open(file_to_save, "w") as text_file:
+    #to do: read and analyze the data here.
+    file_reader = csv.reader(election_data)
+    #print each row in the CSV file.
+    for row in file_reader:
+        print(row)
+
+
+
+    # Write some data to the file.
+    text_file.write("Arapahoe\nDenver\nJefferson")
+
+
