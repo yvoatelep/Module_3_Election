@@ -1,4 +1,5 @@
-# The goal of this analysis is to examine stock performance in the years 2017 and 2018, as well as to measure the efficiency of refactored code compared to the original script created through the module. 
+# Election Audit Analysis
+The goal of this analysis is to examine stock performance in the years 2017 and 2018, as well as to measure the efficiency of refactored code compared to the original script created through the module. 
 
 ### Results
 *A total of 369,761 votes were cast in this congressional election
