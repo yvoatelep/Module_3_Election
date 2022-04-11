@@ -6,15 +6,16 @@ The goal of this analysis is to examine stock performance in the years 2017 and 
 *The vote breakdown by county is as follows:
 	*Denver County 82.8% (306,055)
 	*Jefferson County 10.5% (38,855)
-	* Arapahoe 6.7% (24,801)
+	*Arapahoe 6.7% (24,801)
 	*Denver had the largest county turnout, accounting for 66% more of the votes cast than the other two counties audited. 
+![This is an image](https://github.com/yvoatelep/Module_3_Election/blob/main/Resources/election%20county%20results.png)
 *The vote count per candidate is as follows:
 	*Diana DeGette won the election with 73.8% of votes
 	*Charles Casper Stockham had 23% of the vote
 	Raymon Antohony Doane had 3.1% of the vote
-![This is an image](https://github.com/yvoatelep/Module_3_Election/blob/main/Resources/election%20county%20results.png)
 
-![This is an image]()
+
+![This is an image](https://github.com/yvoatelep/Module_3_Election/blob/main/Resources/election_results_by%20_candidate.png)
 
 ## Proposal for Future Use
 
