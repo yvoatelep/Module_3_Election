@@ -1,9 +1,10 @@
+python
+# -*- coding: UTF-8 -*-
 """PyPoll Homework Challenge Solution."""
 
 # Add our dependencies.
 import csv
 import os
-from tkinter import N
 
 # Add a variable to load a file from a path.
 file_to_load = os.path.join("Resources", "election_results.csv")
@@ -99,17 +100,10 @@ with open(file_to_save, "w") as txt_file:
         # 6c: Calculate the percentage of votes for the county.
         vote_percentage = (float(votes) / float(total_votes) * 100)
 
-        #6d: Print the county results to the terminal.
+         # 6d: Print the county results to the terminal.
         print(f"{county_name}: cast {vote_percentage:.1f}% of the vote.")
          
          # 6e: Save the county votes to a text file.
-
-    # with open(election_results, "w") as txt_file:
-    #     election_results = (
-    #     f"\nCounty Votes\n"
-    #     f"-------------------------------\n"
-    #     f"{county_name} : {vote_percentage:.1f} (county votes)")
-    #     f.close()
 
          # 6f: Write an if statement to determine the winning county and get its vote count.
         if (votes > winning_count) and (vote_percentage > winning_percentage):
@@ -118,9 +112,7 @@ with open(file_to_save, "w") as txt_file:
             winning_percentage = vote_percentage
 
     # 7: Print the county with the largest turnout to the terminal.
-    print(f"Largest County Turnout : Denver\n" 
-                "-------------------------") 
-    # print(f"{winning_county}: {vote_percentage:.1f}% ({votes:,})\n")
+    print(f"{winning_county}: {vote_percentage:.1f}% ({votes:,})\n")
 
 
     # 8: Save the county with the largest turnout to a text file.
@@ -150,12 +142,9 @@ with open(file_to_save, "w") as txt_file:
     # Print the winning candidate (to terminal)
     winning_candidate_summary = (
         f"-------------------------\n"
-        # f"Winner: {winning_candidate}\n"
-        f"Winner: Diana DeGette \n"
-        # f"Winning Vote Count: {winning_count:,}\n"
-        f"Winning Vote Count: (85,213)\n"
-        #f"Winning Percentage: {winning_percentage:.1f}%\n"
-        f"Winning Percentage: 73.8%\n"
+        f"Winner: {winning_candidate}\n"
+        f"Winning Vote Count: {winning_count:,}\n"
+        f"Winning Percentage: {winning_percentage:.1f}%\n"
         f"-------------------------\n")
     print(winning_candidate_summary)
 
